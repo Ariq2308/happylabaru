@@ -1,0 +1,293 @@
+﻿
+
+/*=============================================================
+    Authour URI: www.binarytheme.com
+    License: Commons Attribution 3.0
+
+    http://creativecommons.org/licenses/by/3.0/
+
+    100% To use For Personal And Commercial Use.
+    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
+   
+    ========================================================  */
+/* =============================================================
+   CUSTOM STYLE SHEET : BY BINERY THEME
+    ============================================================ */
+
+
+
+/* =============================================================
+   GENERAL STYLES
+    ============================================================ */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* Loading Image Class Style */
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('images/loading.gif') 50% 50% no-repeat rgb(255, 255, 255);
+}
+
+
+/* Moving Icon Class Style */
+#movingicon {
+    margin-top: 280px;
+    text-align:center;
+    /* vertical-align:central; */
+    color:rgb(255, 255, 255);
+    font-weight:900;
+    font-size:80px;
+    letter-spacing:3px;
+    font-family: 'Russo One', sans-serif !important;
+}
+
+.icon-color{
+    color:rgba(255, 255, 255, 0.9)
+}
+
+.subscribe-icon{
+    color:white;
+    margin-right:10px;
+}
+
+/* Social Links Class Style */
+.social-links {
+    text-align:center;
+     vertical-align:central;
+     margin-top:40px;
+     margin-bottom:30px;
+}
+.social-links a {
+    color:rgba(255, 255, 255);
+    padding-right:10px;
+    text-decoration:none;
+    
+}
+/* Modal Popup Class Style */
+
+.mian-popup-body {
+    padding:5px 20px 20px 20px;
+     font-family: 'Open Sans', sans-serif;
+}
+/* Modal Popup Close Button */
+.back-btn {
+   background-color:#000000;
+}
+
+/* Google Map */
+.mymap {
+    width:100%;
+    height:200px;
+    border:0px;
+
+}
+
+@font-face{
+    font-family: ApexMK3;
+    src: url(./Apex\ Mk3-Medium.otf);
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 0.7)
+        !important;
+        position: fixed;
+        width: 100%;
+        height: 120px;
+        z-index: 1;
+}
+
+.navbar-toggler{
+    background-color: #BF0000;
+    float: left !important;
+}
+
+.logo-jdm{
+    width: 100px;
+    height: auto;
+    margin-left: 20px;
+}
+
+.dropdown-menu{
+    background-color: rgba(44, 44, 44, 0.7)
+        !important;
+}
+
+.dropdown-item{
+    width: 100%;
+    height: 50px;
+    color: #000000;
+    font-family: 'Russo One', sans-serif !important;
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-menu a{
+    font-size: 15px !important;
+}
+
+.dropdown-item img{
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.dropdown-item:hover{
+    color: #BF0000;
+    background-color: #777777;
+    transition: 0.5s;
+}
+
+.nav-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.nav-link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    color: #000000 !important;
+    font-family: 'Russo One', sans-serif !important;
+    letter-spacing: 2px;
+    font-size: 17px;
+    margin: 0 10px 0 10px;
+}
+
+#happylab{
+    color: #BF0000 !important;
+    letter-spacing: 2px;
+    margin: 0 10px 0 10px;
+    padding: .5rem 1rem;
+    font-family: ApexMK3 !important;
+    font-size: 21px;
+    text-decoration: none;
+}
+
+#happylab:hover{
+  color: #2ff5f5 !important;
+  transition: 0.4s ;
+  box-shadow: 5px 3px #BF0000;
+  text-decoration: none !important;
+}
+
+.nav-item :hover{
+    transition: 0.5s;
+    color: #BF0000 !important;
+}
+
+/* =============================================================
+    BOOTSTRAP COMONETS STYLE CHANGES
+    ============================================================ */
+
+/* Navbar Style Change */
+
+.navbar-inverse {
+    background-color: rgba(255, 255, 255, 0.54);
+    border-color: transparent;
+}
+
+ .navbar-inverse .navbar-nav > li > a {
+        color: #ffffff;
+ }
+
+   .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+            color: #ffffff;
+ }
+
+
+ .navbar-inverse .navbar-brand {
+        color: #fff;
+ }
+.navbar-brand {
+    font-size:30px;
+    font-weight:900;
+}
+
+ /* Modal Popup Style */
+
+ .modal-content {
+    border-radius: 0px;
+    background-color: transparent;
+    background-color: rgba(52, 152, 219, 0.74);
+}
+
+.modal-header {
+    color: white;
+    background-color: rgba(152, 215, 150, 0.30);
+}
+
+    .modal-header h4 {
+        font-weight: 700;
+    }
+
+.modal-body {
+    font-family: 'Russo One', sans-serif !important;
+    font-weight: 300;
+    font-size: 16px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.48);
+}
+
+.modal-footer {
+    margin-top: 0px;
+    background-color: rgba(152, 215, 150, 0.30);
+}
+
+
+/* =============================================================
+   COUNTDOWN STYLES
+    ============================================================ */
+
+#counter {
+   display: none;
+}
+#counter-default {
+    margin: 20px auto;
+}
+#counter-default .inner {
+    text-align: center;
+    border: none;
+    margin: 8px 0;
+    padding: 8px;
+}
+#counter-default .timer-number {
+    font-size: 100px;
+    margin-bottom: 10px;
+    font-weight: 900;
+    font-family: 'Russo One', sans-serif !important;
+    color:rgb(255, 255, 255);
+}
+#counter-default  .timer-text {
+    padding: 10px;
+    font-size:20px;
+    font-weight:800;
+    letter-spacing:5px;
+    color:rgb(255, 255, 255);
+}
+
+/* =============================================================
+  MEDIA QUERIES
+    ============================================================ */
+
+
+@media (max-width: 487px) {
+    #headLine {
+       font-size:40px;
+    }
+}
+
+
+
